@@ -1,0 +1,96 @@
+[33mcommit e58d68102e1b506e30f8188a42a013e78bbe1e64[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: miswah <miswah.md@gmail.com>
+Date:   Mon Jun 15 21:42:24 2026 +0530
+
+    (day5): add future enhancements
+
+[33mcommit ef2899f65b515e5b3f7648840ac80739fcf7f5e0[m
+Author: miswah <miswah.md@gmail.com>
+Date:   Mon Jun 15 21:38:40 2026 +0530
+
+    (day5): introduced KGS
+
+[33mcommit 69dd241b675a860c7268394a60072ae076eb52fd[m
+Author: miswah <miswah.md@gmail.com>
+Date:   Mon Jun 15 21:22:49 2026 +0530
+
+    (day5): complete pastebin
+
+[33mcommit 0be97ce0b4b4272bea6f565ad8f87608318de829[m
+Author: Mohammed-Miswah_fisglbl <mohammed.miswah@fisglobal.com>
+Date:   Fri Jun 12 11:57:02 2026 +0530
+
+    (day5): pastebin requirements
+
+[33mcommit dc3a16135f08344b7d1b076b822a837bfe63331f[m
+Author: Mohammed-Miswah_fisglbl <mohammed.miswah@fisglobal.com>
+Date:   Tue Jun 9 21:49:43 2026 +0530
+
+    (day4): autocomplete
+
+[33mcommit 54b2a9959ec582e7ffad05fac9aa657b6bd3c404[m
+Author: miswah <miswah.md@gmail.com>
+Date:   Tue Jun 2 20:52:55 2026 +0530
+
+    (day3): async topic delay
+
+[33mcommit b89f805d2c6b9deb4e3b4e7b8a040800e5ca44a0[m
+Author: miswah <miswah.md@gmail.com>
+Date:   Tue Jun 2 20:49:31 2026 +0530
+
+    (day3): design added
+
+[33mcommit 2da07480fa791c4719d43c090a6a727ce1d72372[m
+Author: Mohammed-Miswah_fisglbl <mohammed.miswah@fisglobal.com>
+Date:   Thu May 28 20:23:18 2026 +0530
+
+    (day3): added requirements
+
+[33mcommit c4fef4e59d5cc78c4673550c2623558b81499345[m
+Author: Mohammed-Miswah_fisglbl <mohammed.miswah@fisglobal.com>
+Date:   Mon May 25 13:57:57 2026 +0530
+
+    (day 2): load balancer
+
+[33mcommit 7f970bab22afe574488ae95dcfa44c5765b33a35[m
+Author: Miswah, Mohammed <mohammed.miswah@fisglobal.com>
+Date:   Thu May 21 11:09:58 2026 +0530
+
+    test commit
+
+[33mcommit 935963d2f8bef916519f3b2c00a6c5c465aa017b[m
+Merge: a3751a8 43440e7
+Author: miswah <miswah.md@gmail.com>
+Date:   Thu May 21 11:06:00 2026 +0530
+
+    Merge branch 'master' of https://github.com/miswah/SystemDesignQuestions
+
+[33mcommit a3751a862cfd25330853532ac999e87eba58123c[m
+Author: miswah <miswah.md@gmail.com>
+Date:   Thu May 21 11:04:10 2026 +0530
+
+    (enh): typo
+
+[33mcommit 43440e7e50ad8e44835ff622ffcbde7abe663fd1[m
+Author: miswah <miswah.md@gmail.com>
+Date:   Mon May 18 21:45:12 2026 +0530
+
+    (day1): added collision check
+
+[33mcommit df5377fec1951ec925db31e35e6bc8f68d79967e[m
+Author: Miswah <Mohammed.Miswah@FISGLOBAL.COM>
+Date:   Mon May 18 11:19:10 2026 +0530
+
+    (day1): encoding step added
+
+[33mcommit 981feb85a2cb5153db3a242ca175f4e5a97d8300[m
+Author: miswah <miswah.md@gmail.com>
+Date:   Mon May 18 00:19:12 2026 +0530
+
+    (day1): fixed typo
+
+[33mcommit 139233de2a415e3a7258b5047508395eb70ec28c[m
+Author: miswah <miswah.md@gmail.com>
+Date:   Mon May 18 00:15:36 2026 +0530
+
+    (day1): URL Shortner

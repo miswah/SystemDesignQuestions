@@ -1,0 +1,157 @@
+{
+  "data": [
+    {
+      "traceID": "7b3c9f2a1d4e5f60718293a4b5c6d7e8",
+      "spans": [
+        {
+          "traceID": "7b3c9f2a1d4e5f60718293a4b5c6d7e8",
+          "spanID": "a1b2c3d4e5f60718",
+          "operationName": "GET /api/orders",
+          "references": [],
+          "startTime": 1723910400000000,
+          "duration": 850000,
+          "tags": [
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "GET"
+            },
+            {
+              "key": "http.route",
+              "type": "string",
+              "value": "/api/orders"
+            },
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 200
+            }
+          ],
+          "logs": [],
+          "processID": "p1"
+        },
+        {
+          "traceID": "7b3c9f2a1d4e5f60718293a4b5c6d7e8",
+          "spanID": "b2c3d4e5f6071829",
+          "operationName": "order-service",
+          "references": [
+            {
+              "refType": "CHILD_OF",
+              "traceID": "7b3c9f2a1d4e5f60718293a4b5c6d7e8",
+              "spanID": "a1b2c3d4e5f60718"
+            }
+          ],
+          "startTime": 1723910400100000,
+          "duration": 600000,
+          "tags": [
+            {
+              "key": "service.name",
+              "type": "string",
+              "value": "order-service"
+            }
+          ],
+          "logs": [],
+          "processID": "p2"
+        },
+        {
+          "traceID": "7b3c9f2a1d4e5f60718293a4b5c6d7e8",
+          "spanID": "c3d4e5f60718293a",
+          "operationName": "SELECT orders",
+          "references": [
+            {
+              "refType": "CHILD_OF",
+              "traceID": "7b3c9f2a1d4e5f60718293a4b5c6d7e8",
+              "spanID": "b2c3d4e5f6071829"
+            }
+          ],
+          "startTime": 1723910400200000,
+          "duration": 300000,
+          "tags": [
+            {
+              "key": "db.system",
+              "type": "string",
+              "value": "postgresql"
+            },
+            {
+              "key": "db.operation",
+              "type": "string",
+              "value": "SELECT"
+            }
+          ],
+          "logs": [],
+          "processID": "p3"
+        },
+        {
+          "traceID": "7b3c9f2a1d4e5f60718293a4b5c6d7e8",
+          "spanID": "d4e5f60718293a4b",
+          "operationName": "redis GET user:123",
+          "references": [
+            {
+              "refType": "CHILD_OF",
+              "traceID": "7b3c9f2a1d4e5f60718293a4b5c6d7e8",
+              "spanID": "b2c3d4e5f6071829"
+            }
+          ],
+          "startTime": 1723910400500000,
+          "duration": 120000,
+          "tags": [
+            {
+              "key": "db.system",
+              "type": "string",
+              "value": "redis"
+            },
+            {
+              "key": "db.operation",
+              "type": "string",
+              "value": "GET"
+            }
+          ],
+          "logs": [],
+          "processID": "p4"
+        }
+      ],
+      "processes": {
+        "p1": {
+          "serviceName": "api-gateway",
+          "tags": [
+            {
+              "key": "hostname",
+              "type": "string",
+              "value": "api-gateway-01"
+            }
+          ]
+        },
+        "p2": {
+          "serviceName": "order-service",
+          "tags": [
+            {
+              "key": "hostname",
+              "type": "string",
+              "value": "order-service-01"
+            }
+          ]
+        },
+        "p3": {
+          "serviceName": "postgres",
+          "tags": [
+            {
+              "key": "hostname",
+              "type": "string",
+              "value": "postgres-01"
+            }
+          ]
+        },
+        "p4": {
+          "serviceName": "redis",
+          "tags": [
+            {
+              "key": "hostname",
+              "type": "string",
+              "value": "redis-01"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
